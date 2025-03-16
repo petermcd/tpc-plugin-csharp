@@ -14,6 +14,6 @@ public class TerminalMode : IDisposable
     }
     public void Dispose()
     {
-        _sshClient.RunCommand(Mode.FromCommand);
+        _sshClient.RunCommand(Mode.FromCommand) ;
     }
 }
